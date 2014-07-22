@@ -1,0 +1,508 @@
+{
+  "terrain": {
+    "tiles": ["http://tile.stamen.com/terrain/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "terrain-background": {
+    "tiles": ["http://tile.stamen.com/terrain-background/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0."
+  },
+  "terrain-grey-hills": {
+    "tiles": ["http://tile.stamen.com/terrain-grey-hills/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0."
+  },
+  "terrain-background-polygons": {
+    "tiles": ["http://tile.stamen.com/terrain-background-polygons/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "terrain-labels": {
+    "tiles": ["http://tile.stamen.com/terrain-labels/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "terrain-lines": {
+    "tiles": ["http://tile.stamen.com/terrain-lines/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "toner": {
+    "tiles": ["http://tile.stamen.com/toner/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "toner-background": {
+    "tiles": ["http://tile.stamen.com/toner-background/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "toner-hybrid": {
+    "tiles": ["http://tile.stamen.com/toner-hybrid/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "toner-hybrid-only-labels": {
+    "tiles": ["http://tile.stamen.com/toner-hybrid-only-labels/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "toner-hybrid-only-lines": {
+    "tiles": ["http://tile.stamen.com/toner-hybrid-only-lines/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "toner-hybrid-with-labels": {
+    "tiles": ["http://tile.stamen.com/toner-hybrid-with-labels/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "toner-labels": {
+    "tiles": ["http://tile.stamen.com/toner-labels/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "toner-lines": {
+    "tiles": ["http://tile.stamen.com/toner-lines/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "toner-lite": {
+    "tiles": ["http://tile.stamen.com/toner-lite/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "toner-no-labels": {
+    "tiles": ["http://tile.stamen.com/toner-no-labels/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "toposm-color-relief": {
+    "tiles": ["http://tile.stamen.com/toposm-color-relief/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Lars Ahlzen, under CC-BY-SA. Data © OpenStreetMap contributors."
+  },
+  "toposm-contours": {
+    "tiles": ["http://tile.stamen.com/toposm-contours/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Lars Ahlzen, under CC-BY-SA. Data © OpenStreetMap contributors."
+  },
+  "toposm-features": {
+    "tiles": ["http://tile.stamen.com/toposm-features/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Lars Ahlzen, under CC-BY-SA. Data © OpenStreetMap contributors."
+  },
+  "toposm-jpeg90": {
+    "tiles": ["http://tile.stamen.com/toposm-jpeg90/{z}/{x}/{y}.jpg"],
+    "attribution": "Tiles by Lars Ahlzen, under CC-BY-SA. Data © OpenStreetMap contributors."
+  },
+  "toposm-jpeg90-h": {
+    "tiles": ["http://tile.stamen.com/toposm-jpeg90-h/{z}/{x}/{y}.jpg"],
+    "attribution": "Tiles by Lars Ahlzen, under CC-BY-SA. Data © OpenStreetMap contributors."
+  },
+  "toposm-jpeg90-l": {
+    "tiles": ["http://tile.stamen.com/toposm-jpeg90-l/{z}/{x}/{y}.jpg"],
+    "attribution": "Tiles by Lars Ahlzen, under CC-BY-SA. Data © OpenStreetMap contributors."
+  },
+  "water-mask": {
+    "tiles": ["http://tile.stamen.com/water-mask/{z}/{x}/{y}.png"],
+    "attribution": "Data © OpenStreetMap contributors."
+  },
+  "watercolor": {
+    "tiles": ["http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg"],
+    "attribution": "Tiles by Stamen Design, under CC-BY 3.0. Data © OpenStreetMap contributors, under CC-BY-SA."
+  },
+  "naip": {
+    "tiles": ["http://a.tiles.mapbox.com/v3/examples.map-2k9d7u0c/{z}/{x}/{y}.jpg"],
+    "attribution": "Imagery © DigitalGlobe, MapBox"
+  },
+  "buildings": {
+    "tiles": ["http://a.tiles.mapbox.com/v3/stamen.map-00uhlqwz/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by MapBox, Data © OpenStreetMap contributors"
+  },
+  "parks": {
+    "tiles": ["http://a.tiles.mapbox.com/v3/stamen.map-347fhfnn/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by MapBox, Data © OpenStreetMap contributors"
+  },
+  "mapbox-water": {
+    "tiles": ["http://a.tiles.mapbox.com/v3/stamen.map-h9plan42/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by MapBox, Data © OpenStreetMap contributors"
+  },
+  "streets-and-labels": {
+    "tiles": ["http://a.tiles.mapbox.com/v3/stamen.map-6n2omj4e/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by MapBox, Data © OpenStreetMap contributors"
+  },
+  "opencyclemap": {
+    "name": "OpenCycleMap",
+    "minzoom": 0,
+    "maxzoom": 18,
+    "tiles": ["http://tile.opencyclemap.org/cycle/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Thunderforest, under CC-BY 2.0. Data © OpenStreetMap contributors."
+  },
+  "transport": {
+    "name": "Transport",
+    "minzoom": 0,
+    "maxzoom": 18,
+    "tiles": ["http://tile2.opencyclemap.org/transport/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Thunderforest, under CC-BY 2.0. Data © OpenStreetMap contributors."
+  },
+  "landscape": {
+    "name": "Landscape",
+    "minzoom": 0,
+    "maxzoom": 18,
+    "tiles": ["http://tile3.opencyclemap.org/landscape/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Thunderforest, under CC-BY 2.0. Data © OpenStreetMap contributors."
+  },
+  "outdoors": {
+    "name": "Outdoors",
+    "description": "Aimed at the outdoors enthusiasts.",
+    "minzoom": 0,
+    "maxzoom": 18,
+    "tiles": ["http://tile.thunderforest.com/outdoors/{z}/{x}/{y}.png"],
+    "attribution": "Tiles by Thunderforest, under CC-BY 2.0. Data © OpenStreetMap contributors."
+  },
+  "mapquest_open": {
+    "name": "MapQuest Open",
+    "tiles": ["http://otile1.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png"],
+    "attribution": "Tiles courtesy of MapQuest"
+  },
+  "osm": {
+    "name": "OpenStreetMap",
+    "tiles": ["http://tile.openstreetmap.org/{z}/{x}/{y}.png"],
+    "attribution": "© OpenStreetMap contributors"
+  },
+  "esri_ocean": {
+    "name": "Ocean Basemap",
+    "tiles": ["http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer/tile/{z}/{y}/{x}"],
+    "attribution": "NHD Plus, Esri, DeLorme, FAO, USGS, EPA, NOAA | GEBCO, IHO-IOC GEBCO, NGS, Esri, DeLorme",
+    "attributionUrl": "http://static.arcgis.com/attribution/Ocean_Basemap?f=json"
+  },
+  "esri_world_topo": {
+    "name": "World Topo",
+    "tiles": ["http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_world_transportation": {
+    "name": "World Transporation",
+    "tiles": ["http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_world_boundaries_and_places": {
+    "name": "World Boundaries and Places",
+    "tiles": ["http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_world_boundaries_and_places_alternate": {
+    "name": "World Boundaries and Places Alternate",
+    "tiles": ["http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places_Alternate/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_world_imagery": {
+    "name": "World Imagery",
+    "tiles": ["http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_streets": {
+    "name": "World Streets",
+    "tiles": ["http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_world_reference": {
+    "name": "World Reference Overlay",
+    "tiles": ["http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Reference_Overlay/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_world_shaded_relief": {
+    "name": "World Shaded Relief",
+    "tiles": ["http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_world_physical": {
+    "name": "World Physical",
+    "tiles": ["http://services.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_world_terrain_base": {
+    "name": "World Terrain Base",
+    "tiles": ["http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_us_topo": {
+    "name": "US Topo",
+    "tiles": ["http://server.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_world_light_gray_reference": {
+    "name": "World Light Gray Reference",
+    "tiles": ["http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_world_light_gray_base": {
+    "name": "World Light Gray Base",
+    "tiles": ["http://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_natgeo": {
+    "name": "National Geographic",
+    "tiles": ["http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_delorme": {
+    "name": "Delorme World Basemap",
+    "tiles": ["http://server.arcgisonline.com/ArcGIS/rest/services/Specialty/DeLorme_World_Base_Map/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_world_navigation_charts": {
+    "name": "World Navigation Charts",
+    "tiles": ["http://services.arcgisonline.com/ArcGIS/rest/services/Specialty/World_Navigation_Charts/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "esri_usa_soil": {
+    "name": "USA Soil Survey",
+    "tiles": ["http://services.arcgisonline.com/ArcGIS/rest/services/Specialty/Soil_Survey_Map/MapServer/tile/{z}/{y}/{x}"]
+  },
+  "nokia_day": {
+    "name": "Day",
+    "tiles": ["http://maps.nlp.nokia.com/maptile/2.1/maptile/newest/normal.day/{z}/{x}/{y}/256/png8"]
+  },
+  "github": {
+    "name": "GitHub",
+    "tiles": ["https://d.tiles.mapbox.com/v3/github.map-xgq2svrz/{z}/{x}/{y}.png"]
+  },
+  "financial_times": {
+    "name": "Financial Times",
+    "tiles": ["http://c.tiles.mapbox.com/v3/financialtimes.map-w7l4lfi8/{z}/{x}/{y}.png"]
+  },
+  "utm": {
+    "tiles": ["http://tile.stamen.com/utm/{z}/{x}/{y}.png"]
+  },
+  "vpro": {
+    "tiles": ["http://tiles.vpro.stamen.com/basemap/{z}/{x}/{y}.png"]
+  },
+  "vpro_zipcodes": {
+    "tiles": ["http://tiles.vpro.stamen.com/zipcodes/{z}/{x}/{y}.png"]
+  },
+  "mapbox_terrain": {
+    "attribution": "<a href='http://mapbox.com/about/maps' target='_blank'>Terms & Feedback</a>",
+    "tiles": ["http://a.tiles.mapbox.com/v3/examples.map-9ijuk24y/{z}/{x}/{y}.png"]
+  },
+  "mapbox_streets": {
+    "attribution": "<a href='http://mapbox.com/about/maps' target='_blank'>Terms & Feedback</a>",
+    "tiles": ["http://d.tiles.mapbox.com/v3/examples.map-vyofok3q/{z}/{x}/{y}.png"]
+  },
+  "mapbox_satellite": {
+    "attribution": "<a href='http://mapbox.com/about/maps' target='_blank'>Terms & Feedback</a>",
+    "tiles": ["http://b.tiles.mapbox.com/v3/examples.map-qfyrx5r8/{z}/{x}/{y}.png"]
+  },
+  "mapbox_pirates": {
+    "maxzoom": 21,
+    "minzoom": 0,
+    "name": "Pirates Return",
+    "attribution": "<a href='http://mapbox.com/about/maps' target='_blank'>Terms & Feedback</a>",
+    "tiles": ["http://a.tiles.mapbox.com/v3/examples.a3cad6da/{z}/{x}/{y}.png"]
+  },
+  "mapbox_zombies": {
+    "maxzoom": 21,
+    "minzoom": 0,
+    "name": "Zombie World",
+    "attribution": "<a href='http://mapbox.com/about/maps' target='_blank'>Terms & Feedback</a>",
+    "tiles": ["http://a.tiles.mapbox.com/v3/examples.fb8f9523/{z}/{x}/{y}.png"]
+  },
+  "mapbox_spiffy": {
+    "maxzoom": 21,
+    "minzoom": 0,
+    "name": "Spiffy Streets",
+    "attribution": "<a href='http://mapbox.com/about/maps' target='_blank'>Terms & Feedback</a>",
+    "tiles": ["http://a.tiles.mapbox.com/v3/examples.c7d2024a/{z}/{x}/{y}.png"]
+  },
+  "mapbox_comic": {
+    "maxzoom": 21,
+    "minzoom": 0,
+    "name": "Comic Map!",
+    "attribution": "<a href='http://mapbox.com/about/maps' target='_blank'>Terms & Feedback</a>",
+    "tiles": ["http://a.tiles.mapbox.com/v3/examples.bc17bb2a/{z}/{x}/{y}.png"]
+  },
+  "mapbox_pencil": {
+    "name": "Pencil",
+    "description": "A painstakingly hand-drawn representation of the entire world. 2B graphite on acid-free paper.",
+    "attribution": "<a href='http://mapbox.com/about/maps' target='_blank'>Terms & Feedback</a>",
+    "tiles": ["http://b.tiles.mapbox.com/v3/examples.a4c252ab/{z}/{x}/{y}.png"]
+  },
+  "tableau_county": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=simple|from=us_census00.county_geom|border=174b7250_1/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_zcta": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=simple|from=us_census00.zcta_geom|border=174b7250_1/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_zip_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/from=tableau.zip10q2_geom|select=name|face_name=DejaVu%20Sans%20Book|fill=174b72|size=11|halo_radius=2|halo_fill=ebecdc|min_zoom=8|mode=label/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_areacode": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/from=us_areacode.ac_geom|border=174b7250_1|colors=clear|min_zoom=4|mode=simple/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_areacode_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/from=us_areacode.ac_geom|wrap_width=20|select=name|face_name=DejaVu%20Sans%20Book|fill=174b72|size=11|halo_radius=2|halo_fill=ebecdc|min_zoom=4|mode=label/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_cbsa": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/from=us_census00.cbsa_geom|border=174b7250_1|colors=clear|min_zoom=4|mode=simple/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_cbsa_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/from=us_census00.cbsa_geom|wrap_width=20|select=name|face_name=DejaVu%20Sans%20Book|fill=174b72|size=11|halo_radius=2|halo_fill=ebecdc|min_zoom=4|mode=label/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_normal": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau1_2_base/mode=named|from=tableau1_2_landcover/mode=named|opacity=.5|from=tableau1_2_admin0_borders/mode=named|opacity=.5|from=tableau1_2_admin0_labels/mode=named|opacity=.5|from=tableau1_2_admin1_borders/mode=named|opacity=.5|from=tableau1_2_admin1_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_normal_base": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau1_2_base/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_normal_landcover": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau1_2_landcover/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_normal_admin0_borders": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau1_2_admin0_borders/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_normal_admin1_borders": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau1_2_admin1_borders/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_normal_admin0_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau1_2_admin0_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_normal_admin1_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau1_2_admin1_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_normal_county_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau1_2_county_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_normal_roads": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau1_2_roads/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_normal_place_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau1_2_place_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_light": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau2_2_base/mode=named|from=tableau2_2_landcover/mode=named|opacity=.5|from=tableau2_2_admin0_borders/mode=named|opacity=.5|from=tableau2_2_admin0_labels/mode=named|opacity=.5|from=tableau2_2_admin1_borders/mode=named|opacity=.5|from=tableau2_2_admin1_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_light_base": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau2_2_base/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_light_landcover": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau2_2_landcover/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_light_admin0_borders": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau2_2_admin0_borders/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_light_admin1_borders": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau2_2_admin1_borders/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_light_admin0_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau2_2_admin0_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_light_admin1_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau2_2_admin1_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_light_county_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau2_2_county_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_light_roads": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau2_2_roads/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_light_place_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau2_2_place_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_dark": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau3_2_base/mode=named|from=tableau3_2_landcover/mode=named|opacity=.5|from=tableau3_2_admin0_borders/mode=named|opacity=.5|from=tableau3_2_admin0_labels/mode=named|opacity=.5|from=tableau3_2_admin1_borders/mode=named|opacity=.5|from=tableau3_2_admin1_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_dark_base": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau3_2_base/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_dark_landcover": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau3_2_landcover/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_dark_admin0_borders": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau3_2_admin0_borders/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_dark_admin1_borders": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau3_2_admin1_borders/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_dark_admin0_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau3_2_admin0_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_dark_admin1_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau3_2_admin1_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_dark_county_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau3_2_county_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_dark_roads": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau3_2_roads/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "tableau_dark_place_labels": {
+    "tiles": ["http://mapvisual2.tableausoftware.com/tile/d/mode=named|from=tableau3_2_place_labels/ol/{z}/{x}/{y}.png?apikey=ttab56540ba691a909b0f7d2af0f6fe7"]
+  },
+  "apple": {
+    "tiles": ["http://gsp2.apple.com/tile?api=1&style=slideshow&layers=default&lang=en_US&z={z}&x={x}&y={y}&v=9"]
+  },
+  "foursquare": {
+    "tiles": ["https://a.tiles.mapbox.com/v3/foursquare.m3elv7vi/{z}/{x}/{y}.png"]
+  },
+  "dym-pop": {
+    "tiles": ["https://a.tiles.mapbox.com/v3/stamen.bp3hxgvi/{z}/{x}/{y}.png"]
+  },
+  "dym-pop-trans": {
+    "tiles": ["https://a.tiles.mapbox.com/v3/stamen.facebook-dymaxion-population-raster/{z}/{x}/{y}.png"]
+  },
+  "dym": {
+    "tiles": ["http://m1.facebook.stamen.com/{z}/{x}/{y}.png"]
+  },
+  "dym-2g": {
+    "tiles": ["http://stamen-dymaxion-2g.herokuapp.com/{z}/{x}/{y}.png"]
+  },
+  "dym-2g-opaque": {
+    "tiles": ["http://stamen-dymaxion-2g-opaque.herokuapp.com/{z}/{x}/{y}.png"]
+  },
+  "dym-3g": {
+    "tiles": ["http://stamen-dymaxion-3g.herokuapp.com/{z}/{x}/{y}.png"]
+  },
+  "dym-3g-opaque": {
+    "tiles": ["http://stamen-dymaxion-3g-opaque.herokuapp.com/{z}/{x}/{y}.png"]
+  },
+  "dym-4g": {
+    "tiles": ["http://stamen-dymaxion-4g.herokuapp.com/{z}/{x}/{y}.png"]
+  },
+  "dym-4g-opaque": {
+    "tiles": ["http://stamen-dymaxion-4g-opaque.herokuapp.com/{z}/{x}/{y}.png"]
+  },
+  "dym-triangles": {
+    "tiles": ["http://stamen-dymaxion-triangles.herokuapp.com/{z}/{x}/{y}.png"]
+  },
+  "dym-postits": {
+    "tiles": ["http://stamen-dymaxion-postits.herokuapp.com/{z}/{x}/{y}.png"]
+  },
+  "hansen_2013-2000_543": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/first_b543/{z}/{x}/{y}.jpg"]
+  },
+  "hansen_2013-2000_457": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/first_b457/{z}/{x}/{y}.jpg"]
+  },
+  "hansen_2013-2012_543": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/last_b543/{z}/{x}/{y}.jpg"]
+  },
+  "hansen_2013-2012_457": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/last_b457/{z}/{x}/{y}.jpg"]
+  },
+  "hansen_2013-loss_forest_gain": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/loss_forest_gain/{z}/{x}/{y}.png"]
+  },
+  "hansen_2013-loss_year": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/loss_year/{z}/{x}/{y}.png"]
+  },
+  "hansen_2013-loss_year_alpha": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/loss_year_alpha/{z}/{x}/{y}.png"]
+  },
+  "hansen_2013-loss": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/loss/{z}/{x}/{y}.png"]
+  },
+  "hansen_2013-loss_alpha": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/loss_alpha/{z}/{x}/{y}.png"]
+  },
+  "hansen_2013-loss_gray": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/loss_gray/{z}/{x}/{y}.png"]
+  },
+  "hansen_2013-gain": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/gain/{z}/{x}/{y}.png"]
+  },
+  "hansen_2013-gain_alpha": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/gain_alpha/{z}/{x}/{y}.png"]
+  },
+  "hansen_2013-gain_gray": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/gain_gray/{z}/{x}/{y}.png"]
+  },
+  "hansen_2013-tree": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/tree/{z}/{x}/{y}.png"]
+  },
+  "hansen_2013-tree_alpha": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/tree_alpha/{z}/{x}/{y}.png"]
+  },
+  "hansen_2013-tree_gray": {
+    "tiles": ["http://earthengine.google.org/static/hansen_2013/tree_gray/{z}/{x}/{y}.png"]
+  },
+  "coopercenter-racial_dot_map-color": {
+    "tiles": ["http://demographics.coopercenter.org/DotMap/tiles4/{z}/{x}/{y}.png"]
+  },
+  "coopercenter-racial_dot_map-bw": {
+    "tiles": ["http://demographics.coopercenter.org/DotMap/tiles5/{z}/{x}/{y}.png"]
+  },
+  "pinterest-wip": {
+    "tiles": ["http://stamen-pinterest.herokuapp.com/{z}/{x}/{y}.png"]
+  },
+  "usgs_large_scale": {
+    "tiles": ["http://tile.openstreetmap.us/usgs_large_scale/{z}/{x}/{y}.jpg"]
+  }
+}
